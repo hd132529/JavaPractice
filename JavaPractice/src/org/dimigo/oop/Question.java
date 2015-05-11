@@ -38,6 +38,27 @@ public class Question {
 		else{
 		System.out.println("틀려요!!");
 		}
+		
+		System.out.println("내가 오늘 가장 맛없었던 음식은?");
+		System.out.println("초성hint:ㄱㅊ\n");
+		String answer2 = scanner.nextLine();
+		
+		if(answer2.equals("김치")){
+		System.out.println("맞아요!!");
+	}
+		else{
+		System.out.println("틀려요!!");
+		}
+		System.out.println("내가 좋아하는 연예인?");
+		System.out.println("초성hint:ㅂ\n");
+		String answer3 = scanner.nextLine();
+		
+		if(answer3.equals("벤")){
+		System.out.println("맞아요!!");
+	}
+		else{
+		System.out.println("틀려요!!");
+		}
 		scanner.close();
 	}
 	
