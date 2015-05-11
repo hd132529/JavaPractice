@@ -57,7 +57,7 @@ public class Question {
 		System.out.println("맞아요!!");
 	}
 		else{
-		System.out.println("틀려요!!");
+		System.out.println("틀려요!");
 		}
 		scanner.close();
 	}
