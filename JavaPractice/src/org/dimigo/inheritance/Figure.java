@@ -22,7 +22,6 @@ public class Figure {
 	private int centerY;
 	
 	public Figure(int centerX, int centerY) {
-		super();
 		this.centerX = centerX;
 		this.centerY = centerY;
 	}
